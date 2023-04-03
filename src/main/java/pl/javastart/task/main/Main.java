@@ -1,4 +1,8 @@
-package pl.javastart.task;
+package pl.javastart.task.main;
+
+import pl.javastart.task.api.CustomerService;
+import pl.javastart.task.api.Offer;
+import pl.javastart.task.api.SalesRepresentative;
 
 public class Main {
     public static void main(String[] args) {

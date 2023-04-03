@@ -1,6 +1,7 @@
-package pl.javastart.task;
+package pl.javastart.task.api;
 
 public class CustomerService {
+
     public void payoutOffer(Offer offer) {
         if (offer.isValid()) {
             System.out.printf("Wypłacono %.2f zł\n", offer.getValue());

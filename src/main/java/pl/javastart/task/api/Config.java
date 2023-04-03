@@ -1,4 +1,4 @@
-package pl.javastart.task;
+package pl.javastart.task.api;
 
 public class Config {
 
