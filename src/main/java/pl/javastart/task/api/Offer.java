@@ -1,6 +1,6 @@
 package pl.javastart.task.api;
 
-public class Offer {
+class Offer {
 
     private boolean valid;
     private double value;

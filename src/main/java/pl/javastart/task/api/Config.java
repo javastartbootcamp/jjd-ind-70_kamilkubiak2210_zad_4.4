@@ -1,6 +1,6 @@
 package pl.javastart.task.api;
 
-public class Config {
+class Config {
 
     public int getMinRequiredEarnings() {
         return 2000;

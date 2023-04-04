@@ -8,7 +8,7 @@ public class SalesRepresentative {
         this.config = new Config();
     }
 
-    public Offer createLoanOffer(int requestedAmount, int earnings) {
+    private Offer createLoanOffer(int requestedAmount, int earnings) {
         Offer offer = new Offer();
         if (earnings >= config.getMinRequiredEarnings()) {
             offer.setPercentage(config.getPercentage());
@@ -16,5 +16,9 @@ public class SalesRepresentative {
             offer.setValue(requestedAmount);
         }
         return offer;
+    }
+
+    public Offer getLoanOffer() {
+        return createLoanOffer(1_000_000, 2000);
     }
 }
