@@ -1,10 +1,13 @@
 package pl.javastart.task.api;
 
-class Offer {
+public class Offer {
 
     private boolean valid;
     private double value;
     private double percentage;
+
+    Offer() {
+    }
 
     public boolean isValid() {
         return valid;
